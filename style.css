@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+#produktliste {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.produkt img {
+  width: 100%;
+}
+
+.produkt a {
+  color: black;
+  text-decoration: none;
+}
+
+.produkt h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#produktdetaljer {
+  max-width: 1000px;
+}
+
+#produktdetaljer img {
+  width: 50%;
+}
